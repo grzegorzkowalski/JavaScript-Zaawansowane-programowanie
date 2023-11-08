@@ -1,1 +1,1 @@
-# JavaScript---Zaawansowane-programowanie-
+# JavaScript-Zaawansowane programowanie
