@@ -1,10 +1,8 @@
 //Zadanie 1
-
-const [snow, , sun] = [ "snow", "rain", "sun" ];
+const [snow, ,sun] = ["snow", "rain", "sun"];
 console.log(snow, sun);
 
 //Zadanie 2
-
 const slider = {
     type: "infinite",
     numberOfItems: 10,
