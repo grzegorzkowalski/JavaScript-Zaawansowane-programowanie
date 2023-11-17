@@ -11,13 +11,13 @@ class BankAccount {
         return this.#balance;
     }
 
-    set balance(newBalance) {
-        if (newBalance >= 0) {
-            this.#balance = newBalance;
-        } else {
-            console.log("Saldo nie może być ujemne.");
-        }
-    }
+    // set balance(newBalance) {
+    //     if (newBalance >= 0) {
+    //         this.#balance = newBalance;
+    //     } else {
+    //         console.log("Saldo nie może być ujemne.");
+    //     }
+    // }
 
     deposit(amount) {
         if (amount > 0) {
@@ -39,3 +39,9 @@ class BankAccount {
         console.log(`Numer konta: ${this.#accountNumber}, Saldo: ${this.#balance}`);
     }
 }
+
+const myAccount = new BankAccount("123456789");
+myAccount.deposit(100);
+myAccount.withdraw(50);
+myAccount.balance = -20; // powinno wyświetlić błąd
+myAccount.displayAccountInfo();

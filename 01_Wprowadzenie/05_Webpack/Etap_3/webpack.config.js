@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
-const filePath = '../../../02_Wybrane_zagadnienia/01_ArrowFunctions/Zadania/main.js';
+const filePath = '../../../02_Wybrane_zagadnienia/05_Elementy_statyczne/index.js';
 
 module.exports = {
     entry: {
