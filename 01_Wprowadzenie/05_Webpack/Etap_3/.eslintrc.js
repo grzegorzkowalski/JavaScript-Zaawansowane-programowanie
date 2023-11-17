@@ -5,7 +5,7 @@ module.exports = {
         "es6": true
     },
     parserOptions: {
-        ecmaVersion: 2022,
+        ecmaVersion: 2023,
         sourceType: 'module',
         ecmaFeatures: {
             "modules": true
@@ -13,13 +13,13 @@ module.exports = {
     },
     rules: {
         "prefer-template": "off",
-        "no-var": 1,
-        "no-unused-vars": 1,
-        "camelcase": 1,
-        "no-nested-ternary": 1,
-        "no-console": 1,
-        "no-template-curly-in-string": 1,
-        "no-self-compare": 1,
+        "no-var": 0,
+        "no-unused-vars": 0,
+        "camelcase": 0,
+        "no-nested-ternary": 0,
+        "no-console": 0,
+        "no-template-curly-in-string": 0,
+        "no-self-compare": 0,
     },
     ignorePatterns: ["dist", "node_modules", "webpack.*"],
 }

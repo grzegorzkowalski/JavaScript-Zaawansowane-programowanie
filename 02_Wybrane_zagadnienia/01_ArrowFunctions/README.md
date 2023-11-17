@@ -1,7 +1,5 @@
 ## Zadanie 1
 
-
-
 Napisz **funkcję strzałkową** `getSecondMaxNumber(array)`, która jako argument przyjmuje tablicę. 
 
 Funkcja **ma zwrócić** drugą największą liczbę w tablicy.
@@ -14,8 +12,6 @@ Wynik w consoli: 49 // Największą liczbą w tablicy jest 100, ale my szukaliś
 ```
 
 ## Zadanie 2
-
-
 
 Napisz **funkcję strzałkową** `runInterval(n)`, która jako parametr (`n`) przyjmie liczbę całkowitą od `1 - 10`.
 

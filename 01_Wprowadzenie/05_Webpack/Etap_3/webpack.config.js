@@ -2,9 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
+const filePath = '../../../02_Wybrane_zagadnienia/01_ArrowFunctions/Zadania/main.js';
+
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, './src/index.js'),
+        main: path.resolve(__dirname, filePath),
     },
     output: {
         path: path.resolve(__dirname, './dist'),

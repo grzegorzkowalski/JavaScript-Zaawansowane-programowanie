@@ -3,7 +3,7 @@ let test = "test";
 console.log(test);
 
 const heading = document.createElement('h1');
-heading.textContent = 'Działa!';
+heading.textContent = 'Działa haha!';
 
 const app = document.querySelector('#root');
 app.append(heading);
@@ -15,4 +15,6 @@ class Dog {
 const myDog = new Dog();
 
 console.log(myDog);
+
+console.log("Ala ma kota");
 

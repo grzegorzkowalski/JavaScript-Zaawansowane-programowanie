@@ -19,3 +19,11 @@ function createCounter() {
         }
     };
 }
+
+const counter = createCounter();
+counter.add(5);
+counter.add(3);
+counter.subtract(2);
+
+console.log(counter.getCount()); // Powinno wyświetlić 6
+console.log(counter.getOperationsCount()); // Powinno wyświetlić 3
